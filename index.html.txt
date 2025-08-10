@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agency Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Build Beyond Limits</h1>
+    <p>Your digital agency for web, apps & branding.</p>
+    <a href="#services">Explore Services</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We craft digital experiences that elevate brands and engage users.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>Fast, responsive, and SEO-optimized websites.</p>
+    </div>
+    <div class="service-card">
+      <h3>App Design</h3>
+      <p>Modern UI/UX for mobile and web platforms.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
